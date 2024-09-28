@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Quiz</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <header>Tech Quiz</header>
+
+    <section id="main">
+        
+        <div id="Q1">
+            <img src="./q1_1.png" alt="Not Suported">
+            
+            <p id="q">Quais são as principais diferenças entre 
+                programação orientada a objetos (POO) e
+                 programação funcional?
+            </p>
+            <div id="questions">
+                <button class="a1" onclick="btnA1()">A) Programação orientada a objetos 
+                    se foca em funções como unidades de execução,
+                     enquanto a programação funcional usa objetos e
+                      classes para organizar dados.
+                </button>
+    
+                <button class="a2" onclick="btnA2()">B) Programação orientada a objetos 
+                    organiza o código em torno de objetos e classes,
+                     enquanto a programação funcional se baseia em funções
+                      e imutabilidade.
+                </button>
+    
+                <button class="a3" onclick="btnA3()">B) C) Programação orientada a objetos
+                     não permite a criação de funções, enquanto a
+                      programação funcional não usa classes.
+                </button>
+            </div>
+
+        </div>
+
+        <div id="Q2">
+            <img src="./q2_1.png" alt="Not Suported">
+            
+            <p id="q">Como funciona a coleta de lixo (garbage collection)
+                 em linguagens de programação como Java e Python, e por 
+                 que é importante para a gestão de memória?
+            </p>
+            <div id="questions">
+                <button class="a1" onclick="btnA4()">A) A coleta de lixo é um 
+                    processo manual onde o programador deve liberar a memória quando
+                     necessário.
+                </button>
+    
+                <button class="a2" onclick="btnA5()">B) A coleta de lixo é 
+                    uma técnica automatizada que remove objetos não utilizados
+                     para liberar memória, evitando vazamentos e otimizando 
+                     a gestão de recursos.
+                </button>
+    
+                <button class="a3" onclick="btnA6()">C) A coleta de lixo ocorre
+                     somente durante o processo de compilação e não afeta o tempo
+                      de execução do programa.
+                </button>
+            </div>
+
+        </div>
+
+        <div id="Q3">
+            <img src="./q3_1.jpg" alt="Not Suported">
+            
+            <p id="q">O que são algoritmos de ordenação estável e 
+                instável? Dê exemplos de cada um e explique quando você
+                 usaria um em vez do outro.
+            </p>
+            <div id="questions">
+                <button class="a1" onclick="btnA7()">A) Algoritmos de ordenação 
+                    estável mantêm a ordem original de elementos iguais, enquanto
+                     algoritmos instáveis não garantem essa ordem. Exemplo de
+                      estável: QuickSort; Exemplo de instável: MergeSort.
+                </button>
+    
+                <button class="a2" onclick="btnA8()">B) Algoritmos de ordenação estável
+                     mantêm a ordem original de elementos iguais, enquanto algoritmos 
+                     instáveis não garantem essa ordem. Exemplo de estável: MergeSort;
+                      Exemplo de instável: QuickSort.
+                </button>
+    
+                <button class="a3" onclick="btnA9()">C) Algoritmos de ordenação
+                     estável são mais rápidos, enquanto algoritmos instáveis são 
+                     mais lentos. Exemplo de estável: BubbleSort; Exemplo de 
+                     instável: SelectionSort.
+                </button>
+            </div>
+
+        </div>
+
+        <div id="finalScore">
+            <p id="pScore"></p>
+            <button onclick="btnFinalScore()">Recomeçar.</button>
+        </div>
+    </section>
+
+<script src="./index.js"></script>
+</body>
+</html>
